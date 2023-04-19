@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px){
+    .navbar__nav .fa-bars{
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .navbar .navbar__nav a{
+        display: none;
+    }
+    .banner__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .banner__item h1{
+        font-size: 4rem;
+    }
+    .banner__item span{
+        font-size: 1.8rem;
+    }
+    .avto__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .what__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+
+    .testimonial__content{
+        margin-top: 5rem;
+        background-color: #2b2b2b;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 2rem 1rem;
+    }
+    .map__title{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+    .contact__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-top: 6rem;
+        border-bottom: 1px solid #fff;
+    }
+    
+}
+
+@media only screen and (max-width:360px){
+    .banner__item p{
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+    .what__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+}
